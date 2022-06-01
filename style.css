@@ -1,0 +1,19 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  background: rgba(56, 97, 201, 0.772);
+  min-height: 100vh;
+}
+.contact-icons i {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(37, 37, 234, 0.488);
+
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+}
