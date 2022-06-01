@@ -7,7 +7,7 @@ const fetchUser = async (params = "results=20") => {
     .then((data) => {
       //accessing the object through data
       userArgs = data.results; //pushing to the empty array
-      console.log(userArgs);
+      //   console.log(userArgs);
       display(); //calling the display function after the data has been fetched
     })
     .catch((err) => console.log(err));
