@@ -19,7 +19,7 @@ const display = (args = userArgs) => {
   let str = "";
   args.map((user, i) => {
     str += `
-      <div class="col-md-6 col-lg-4 mb-5">
+      <div class="col-md-6 col-lg-4 mb-5 ">
                  <div class="card">
                    <img src ="${user.picture.large}" class="card-img-top" alt="..." />
                    <div class="card-body">
